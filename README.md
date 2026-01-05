@@ -2,6 +2,8 @@
 
 Integrate [pre-commit](https://pre-commit.com/) into Magit. Press `@` from any magit buffer to open the pre-commit menu.
 
+<img width="870" height="419" alt="screenshot" src="https://github.com/user-attachments/assets/081df4ab-c213-4089-8c3e-0b395a0243b4" />
+
 ## Installation
 
 ### Doom Emacs

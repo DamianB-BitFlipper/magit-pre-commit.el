@@ -1,8 +1,8 @@
 # magit-pre-commit.el
 
-Magit integration for [pre-commit](https://pre-commit.com/), the framework for managing multi-language pre-commit hooks.
+[Pre-commit](https://pre-commit.com/) integration for Magit.
 
-Press `@` from any magit buffer to run pre-commit, install hooks, or update them—with tab-completion for hook names from your config.
+Press `@` from any magit buffer to access pre-commit commands.
 
 ## Installation
 

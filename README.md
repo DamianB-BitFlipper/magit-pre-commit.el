@@ -55,3 +55,7 @@ In `config.el`:
 - `magit-pre-commit-install` - Install pre-commit git hooks
 - `magit-pre-commit-autoupdate` - Update hooks to latest versions
 - `magit-pre-commit-kill` - Kill running pre-commit process
+
+---
+
+<a href="https://buymeacoffee.com/thebitflipper" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>

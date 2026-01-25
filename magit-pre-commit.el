@@ -371,7 +371,7 @@ If HOOK is provided, run only that hook."
   (define-key magit-mode-map magit-pre-commit-transient-prefix #'magit-pre-commit)
   ;; Add to magit-dispatch for discoverability
   (transient-insert-suffix 'magit-dispatch "!"
-    '(magit-pre-commit-transient-prefix "Pre-commit" magit-pre-commit :if magit-pre-commit-available-p))
+    `(,magit-pre-commit-transient-prefix "Pre-commit" magit-pre-commit :if magit-pre-commit-available-p))
   ;; Add status section hook
   (magit-add-section-hook 'magit-status-sections-hook
                           #'magit-pre-commit--status-insert-section
